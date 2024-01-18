@@ -20,7 +20,8 @@ def main():
         df = pd.read_csv(arquivo_csv)
 
         # Lista de nomes para filtrar
-        nomes_filtro = ['junho', 'JUNHO']
+        nomes_filtro = ['inativo', 'inativos', 'maury', 'jannis', 'dani', 'neg', 'contabilidade', 'adv', 'passivas', 'passiva', 
+                        'rodizio', 'RODIZIO', 'fiscal','FISCAL', 'junho', 'JULHO']
 
         # Substitua 'Name' pelo nome real da coluna no seu arquivo CSV
         nome_coluna = 'Name'
